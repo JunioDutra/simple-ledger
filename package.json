@@ -1,0 +1,17 @@
+{
+  "name": "simple-ledger-single-file",
+  "version": "1.0.0",
+  "description": "Simple single-file ledger service with native Node HTTP and SQLite",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.ts",
+    "dev": "node --watch app.ts",
+    "test": "echo \"No automated tests configured\""
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1"
+  }
+}
